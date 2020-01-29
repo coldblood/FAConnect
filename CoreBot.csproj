@@ -8,6 +8,8 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultRazorTargetAssemblyInfoAttributes>false</EnableDefaultRazorTargetAssemblyInfoAttributes>
+    <GenerateDefaultRazorTargetAssemblyInfoAttributes>false</GenerateDefaultRazorTargetAssemblyInfoAttributes>
   </PropertyGroup>
 
   <ItemGroup>
