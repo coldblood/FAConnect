@@ -1,0 +1,6 @@
+C:\Users\suryanak\Source\Repos\core-bot\bin\Debug\netcoreapp1.1\CoreBot.deps.json
+C:\Users\suryanak\Source\Repos\core-bot\bin\Debug\netcoreapp1.1\CoreBot.runtimeconfig.json
+C:\Users\suryanak\Source\Repos\core-bot\bin\Debug\netcoreapp1.1\CoreBot.runtimeconfig.dev.json
+C:\Users\suryanak\Source\Repos\core-bot\obj\Debug\netcoreapp1.1\CoreBot.csproj.CoreCompileInputs.cache
+C:\Users\suryanak\Source\Repos\core-bot\obj\Debug\netcoreapp1.1\CoreBot.AssemblyInfo.cs
+C:\Users\suryanak\Source\Repos\core-bot\obj\Debug\netcoreapp1.1\CoreBot.csprojResolveAssemblyReference.cache
