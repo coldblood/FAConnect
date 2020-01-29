@@ -55,7 +55,6 @@ namespace Microsoft.BotBuilderSamples.Dialogs
         }
 
         private async Task<DialogTurnResult> HandleFAConnect(WaterfallStepContext context, CancellationToken cancellationToken) {
-            await context.Context.SendActivityAsync("haha", "", "", cancellationToken);
             // Call LUIS and gather any potential booking details. (Note the TurnContext has the response to the prompt.)
             var luisResult = await _luisRecognizer.RecognizeAsync<FAConnect>(context.Context, cancellationToken);
             string response = "Lol";
@@ -68,7 +67,11 @@ namespace Microsoft.BotBuilderSamples.Dialogs
                     response = "Details";
                     break;
             }
-            await context.Context.SendActivityAsync(response, "", "", cancellationToken);
+            var replySpeak = @"<speak version='1.0' xmlns='https://www.w3.org/2001/10/synthesis' xml:lang='de-DE'>
+                <voice name='Microsoft Server Speech Text to Speech Voice (de-DE, Stefan, Apollo)'>" +
+                $"{response}" + "</voice></speak>";
+            var promptMessage = MessageFactory.Text(response, replySpeak, InputHints.ExpectingInput);
+            await context.Context.SendActivityAsync(promptMessage, cancellationToken);
             return await context.NextAsync(null, cancellationToken);
         }
 
