@@ -10,10 +10,7 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <EnableDefaultRazorTargetAssemblyInfoAttributes>false</EnableDefaultRazorTargetAssemblyInfoAttributes>
     <GenerateDefaultRazorTargetAssemblyInfoAttributes>false</GenerateDefaultRazorTargetAssemblyInfoAttributes>
-    <GenerateRazorLanguageVersionAttribute>false</GenerateRazorLanguageVersionAttribute>
-    <GenerateLanguageVersionAttribute>false</GenerateLanguageVersionAttribute>
-    <GenerateRazorConfigurationNameAttribute>false</GenerateRazorConfigurationNameAttribute>
-    <GenerateConfigurationNameAttribute>false</GenerateConfigurationNameAttribute>
+    <GenerateRazorAssemblyInfo>false</GenerateRazorAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>
