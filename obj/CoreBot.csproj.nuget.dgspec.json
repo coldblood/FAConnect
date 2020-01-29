@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\suryanak\\Source\\Repos\\core-bot\\CoreBot.csproj": {}
+    "C:\\Users\\suryanak\\Source\\Repos\\FAConnect\\CoreBot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\suryanak\\Source\\Repos\\core-bot\\CoreBot.csproj": {
+    "C:\\Users\\suryanak\\Source\\Repos\\FAConnect\\CoreBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\suryanak\\Source\\Repos\\core-bot\\CoreBot.csproj",
+        "projectUniqueName": "C:\\Users\\suryanak\\Source\\Repos\\FAConnect\\CoreBot.csproj",
         "projectName": "CoreBot",
-        "projectPath": "C:\\Users\\suryanak\\Source\\Repos\\core-bot\\CoreBot.csproj",
+        "projectPath": "C:\\Users\\suryanak\\Source\\Repos\\FAConnect\\CoreBot.csproj",
         "packagesPath": "C:\\Users\\suryanak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\suryanak\\Source\\Repos\\core-bot\\obj\\",
+        "outputPath": "C:\\Users\\suryanak\\Source\\Repos\\FAConnect\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
