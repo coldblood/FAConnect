@@ -55,6 +55,7 @@ namespace Microsoft.BotBuilderSamples.Dialogs
         }
 
         private async Task<DialogTurnResult> HandleFAConnect(WaterfallStepContext context, CancellationToken cancellationToken) {
+            await context.Context.SendActivityAsync("haha", "", "", cancellationToken);
             // Call LUIS and gather any potential booking details. (Note the TurnContext has the response to the prompt.)
             var luisResult = await _luisRecognizer.RecognizeAsync<FAConnect>(context.Context, cancellationToken);
             string response = "Lol";
