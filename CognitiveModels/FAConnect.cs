@@ -8,6 +8,8 @@ using Newtonsoft.Json;
 using System.Collections.Generic;
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.AI.Luis;
+using System;
+
 namespace Luis
 {
     public partial class FAConnect: IRecognizerConvert
@@ -37,7 +39,7 @@ namespace Luis
 
             public string[] clientage;
 
-            public string[] criticalalerts;
+            public Object[] criticalalerts;
 
             public string[] planName;
 

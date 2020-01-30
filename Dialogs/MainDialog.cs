@@ -104,7 +104,7 @@ namespace Microsoft.BotBuilderSamples.Dialogs
                     if(luisResult.Entities.personName != null && luisResult.Entities.personName[0] != null) {
                         client = clients.FirstOrDefault(x => x.firstName.ToLower() == luisResult.Entities.personName[0].ToLower());
                     }
-                    if(luisResult.Entities != null & luisResult.Entities.criticalalerts != null && luisResult.Entities.criticalalerts[0] == "alerts") {
+                    if(luisResult.Entities != null & luisResult.Entities.criticalalerts != null) {
                         SendAlertDetails(fa.alerts, clients, context, cancellationToken);
                     }
                     if(clients != null && client != null && clients.Length >= 0)
