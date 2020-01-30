@@ -1,0 +1,179 @@
+﻿{
+  "summary": {
+    "clients": 10,
+    "avgPortfolio": "$35,300,046",
+    "planOnTrack": 34,
+    "planOffTrack": 6,
+    "criticalAlerts": 2
+  },
+  "clients": [
+    {
+      "firstName": "Mark",
+      "lastName": "Zuckerberg",
+      "age": 35,
+      "retAge": 65,
+      "id": 1,
+      "portfolioValue": 30000045,
+      "accounts": {
+        "internal": 5,
+        "external": 10
+      },
+      "plans": [
+        {
+          "name": "Zuck's Retirement plan",
+          "essentialGoalAmount": 1200000,
+          "discretionaryGoalAmount": 2000000,
+          "type": "Retirement",
+          "status": "OnTrack",
+          "TargetPOS": 99.9
+        },
+        {
+          "name": "Kids Education plan",
+          "totalGoalAmount": 2400000,
+          "type": "Education",
+          "status": "OffTrack",
+          "TargetPOS": 69.67
+        }
+      ]
+    },
+    {
+      "firstName": "Bill",
+      "lastName": "Gates",
+      "age": 69,
+      "retAge": 75,
+      "id": 2,
+      "portfolioValue": 40000068,
+      "accounts": {
+        "internal": 4,
+        "external": 24
+      },
+      "plans": [
+        {
+          "name": "Bill's Retirement plan",
+          "essentialGoalAmount": 3200000,
+          "discretionaryGoalAmount": 4000000,
+          "type": "Retirement",
+          "status": "OnTrack",
+          "TargetPOS": 99.8,
+          "alerts": null
+        }
+      ]
+    },
+    {
+      "firstName": "Tim",
+      "lastName": "Cook",
+      "age": 58,
+      "retAge": 72,
+      "id": 3,
+      "portfolioValue": 12000068,
+      "accounts": {
+        "internal": 6,
+        "external": 14
+      },
+      "plans": [
+        {
+          "name": "Tim's Retirement plan",
+          "essentialGoalAmount": 3200000,
+          "discretionaryGoalAmount": 4000000,
+          "type": "Retirement",
+          "status": "OnTrack",
+          "TargetPOS": 99.8
+        }
+      ]
+    },
+    {
+      "firstName": "Jeff",
+      "lastName": "Bezos",
+      "age": 54,
+      "retAge": 75,
+      "id": 4,
+      "portfolioValue": 45000068,
+      "accounts": {
+        "internal": 12,
+        "external": 54
+      },
+      "plans": [
+        {
+          "name": "Jeff's Retirement plan",
+          "essentialGoalAmount": 5200000,
+          "discretionaryGoalAmount": 8000000,
+          "type": "Retirement",
+          "status": "OnTrack",
+          "TargetPOS": 99.9
+        }
+      ]
+    },
+    {
+      "firstName": "Satya",
+      "lastName": "Nadella",
+      "age": 50,
+      "retAge": 68,
+      "id": 5,
+      "portfolioValue": 10000045,
+      "accounts": {
+        "internal": 2,
+        "external": 16
+      },
+      "plans": [
+        {
+          "name": "Satya's Retirement plan",
+          "essentialGoalAmount": 1000000,
+          "discretionaryGoalAmount": 1500000,
+          "type": "Retirement",
+          "status": "OnTrack",
+          "TargetPOS": 99.89
+        },
+        {
+          "name": "Kids Education plan",
+          "totalGoalAmount": 2800000,
+          "type": "Education",
+          "status": "OnTrack",
+          "TargetPOS": 89.67
+        }
+      ]
+    },
+    {
+      "firstName": "Sundar",
+      "lastName": "Pichai",
+      "age": 46,
+      "retAge": 67,
+      "id": 6,
+      "portfolioValue": 10000045,
+      "accounts": {
+        "internal": 2,
+        "external": 16
+      },
+      "plans": [
+        {
+          "name": "Sundar's Retirement plan",
+          "essentialGoalAmount": 10000000,
+          "discretionaryGoalAmount": 25000000,
+          "type": "Retirement",
+          "status": "OffTrack",
+          "TargetPOS": 19.39
+        },
+        {
+          "name": "Kids Education plan",
+          "totalGoalAmount": 3200000,
+          "type": "Education",
+          "status": "OnTrack",
+          "TargetPOS": 94.67
+        }
+      ]
+    }
+  ],
+  "alerts": [
+    {
+      "id": 1,
+      "clientId": 1,
+      "type": "Critical",
+      "message": "No regular cashflows in Education account. Goal is offtrack."
+    },
+    {
+      "id": 2,
+      "clientId": 6,
+      "type": "Critical",
+      "message": "Retirement lifestyle cannot be met with planned cashflows. Goal is offtrack."
+    }
+  ]
+}

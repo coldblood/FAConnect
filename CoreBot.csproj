@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Cards\welcomeCard.json" />
+    <None Update="FA.json" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
   <ItemGroup>

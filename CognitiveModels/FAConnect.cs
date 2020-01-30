@@ -21,15 +21,7 @@ namespace Luis
         public enum Intent {
             Details, 
             None, 
-            Summary, 
-            ToDo_AddToDo, 
-            ToDo_Cancel, 
-            ToDo_Confirm, 
-            ToDo_DeleteToDo, 
-            ToDo_MarkToDo, 
-            ToDo_ShowNextPage, 
-            ToDo_ShowPreviousPage, 
-            ToDo_ShowToDo
+            Summary
         };
         [JsonProperty("intents")]
         public Dictionary<Intent, IntentScore> Intents;
@@ -40,12 +32,6 @@ namespace Luis
             public string[] PortfolioValue;
 
             public string[] RetirementAge;
-
-            public string[] ToDo_ContainsAll;
-
-            public string[] ToDo_ListType;
-
-            public string[] ToDo_TaskContent;
 
             public string[] clientName;
 
@@ -76,19 +62,12 @@ namespace Luis
 
             public string[][] status;
 
-            // Pattern.any
-            public string[] ToDo_TaskContent_Any;
-
             // Instance
             public class _Instance
             {
                 public InstanceData[] Accounts;
                 public InstanceData[] PortfolioValue;
                 public InstanceData[] RetirementAge;
-                public InstanceData[] ToDo_ContainsAll;
-                public InstanceData[] ToDo_ListType;
-                public InstanceData[] ToDo_TaskContent;
-                public InstanceData[] ToDo_TaskContent_Any;
                 public InstanceData[] age;
                 public InstanceData[] current_age;
                 public InstanceData[] clientName;
