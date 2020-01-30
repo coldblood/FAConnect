@@ -58,11 +58,11 @@
       const params = BotChat.queryParams(location.search);
       const user = {
         id: params['userid'] || 'userid',
-        name: params['username'] || 'username'
+        name: params['username'] || 'Mike Ross'
       };
       const bot = {
         id: params['botid'] || 'botid',
-        name: params['botname'] || 'botname'
+        name: params['botname'] || 'AVA'
       };
       window.botchatDebug = params['debug'] && params['debug'] === 'true';
       // // Option 1: No speech
